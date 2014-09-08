@@ -15,7 +15,6 @@ The goal of this connector is merge two pdf file in one.
 Inputs : 
 pdfName1 / Mandatory / java.lang.String / It is the name of the first BonitaBPM Document in the pool
 pdfName2 / Mandatory / java.lang.String / It is the name of the second BonitaBPM Document in the pool
-processInstanceId / Mandatory / java.lang.Long / It is the id of the case
 
 Outputs :
 outputPDFStream / org.bonitasoft.engine.bpm.document.DocumentValue / It is the result of the operation for set in BonitaBPM Document
