@@ -5,7 +5,7 @@
  * @warning : Developed for BonitaBPM 6.3.3
  * @warning : Careful treatment may take a little time
  */
-package org.bonitasoft.connector;
+package org.bonitasoft.mergePdf;
 
 import org.apache.pdfbox.exceptions.COSVisitorException;
 import org.bonitasoft.engine.connector.ConnectorException;
@@ -25,7 +25,6 @@ import org.bonitasoft.engine.api.ProcessAPI;
 import org.bonitasoft.engine.bpm.document.Document;
 import org.bonitasoft.engine.bpm.document.DocumentNotFoundException;
 import org.bonitasoft.engine.bpm.document.DocumentValue;
-import org.bonitasoft.mergePdf;
 
 /**
  *The connector execution will follow the steps

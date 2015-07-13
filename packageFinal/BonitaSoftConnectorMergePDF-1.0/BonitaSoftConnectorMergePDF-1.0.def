@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition:ConnectorDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:definition="http://www.bonitasoft.org/ns/connector/definition/6.1">
+  <id>BonitaSoftConnectorMergePDF</id>
+  <version>1.0</version>
+  <category icon="icon.png" id="custom"/>
+  <input mandatory="true" name="pdfName1" type="java.lang.String"/>
+  <input mandatory="true" name="pdfName2" type="java.lang.String"/>
+  <input mandatory="true" name="processInstanceId" type="java.lang.Lang"/>
+  <output name="outputPDFStream" type="org.bonitasoft.engine.bpm.document.DocumentValue"/>
+  <page id="DefineInput">
+    <widget xsi:type="definition:Text" id="PdfName1" inputName="pdfName1"/>
+    <widget xsi:type="definition:Text" id="PdfName2" inputName="pdfName2"/>
+    <widget xsi:type="definition:Text" id="ProcessInstanceId" inputName="processInstanceId"/>
+  </page>
+  <jarDependency>connectorMergePDF-1.0-SNAPSHOT.jar</jarDependency>
+  <jarDependency>pdfbox-1.8.9.jar</jarDependency>
+</definition:ConnectorDefinition>
