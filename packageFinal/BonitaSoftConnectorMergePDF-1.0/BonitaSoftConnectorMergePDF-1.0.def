@@ -5,7 +5,7 @@
   <category icon="icon.png" id="custom"/>
   <input mandatory="true" name="pdfName1" type="java.lang.String"/>
   <input mandatory="true" name="pdfName2" type="java.lang.String"/>
-  <input mandatory="true" name="processInstanceId" type="java.lang.Lang"/>
+  <input mandatory="true" name="processInstanceId" type="java.lang.Long"/>
   <output name="outputPDFStream" type="org.bonitasoft.engine.bpm.document.DocumentValue"/>
   <page id="DefineInput">
     <widget xsi:type="definition:Text" id="PdfName1" inputName="pdfName1"/>
