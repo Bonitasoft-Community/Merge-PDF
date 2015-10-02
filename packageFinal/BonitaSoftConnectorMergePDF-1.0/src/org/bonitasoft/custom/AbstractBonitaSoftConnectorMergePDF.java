@@ -1,4 +1,4 @@
-package org.bonitasoft.mergePdf;
+package org.bonitasoft.custom;
 
 import org.bonitasoft.engine.connector.AbstractConnector;
 import org.bonitasoft.engine.connector.ConnectorValidationException;
@@ -8,8 +8,8 @@ public abstract class AbstractBonitaSoftConnectorMergePDF extends AbstractConnec
 
 	protected final static String PDFNAME1_INPUT_PARAMETER = "pdfName1";
 	protected final static String PDFNAME2_INPUT_PARAMETER = "pdfName2";
-	protected final static Long PROCESSINSTANCEID_INPUT_PARAMETER = "processInstanceId";
-	protected final DocumentValue OUTPUTPDFSTREAM_OUTPUT_PARAMETER = "outputPDFStream";
+	protected final static String PROCESSINSTANCEID_INPUT_PARAMETER = "processInstanceId";
+	protected final String OUTPUTPDFSTREAM_OUTPUT_PARAMETER = "outputPDFStream";
 
 	protected final String getPdfName1() {
 		return (String) getInputParameter(PDFNAME1_INPUT_PARAMETER);

@@ -8,10 +8,8 @@
   <input mandatory="true" name="processInstanceId" type="java.lang.Long"/>
   <output name="outputPDFStream" type="org.bonitasoft.engine.bpm.document.DocumentValue"/>
   <page id="DefineInput">
-    <widget xsi:type="definition:Text" id="PdfName1" inputName="pdfName1"/>
-    <widget xsi:type="definition:Text" id="PdfName2" inputName="pdfName2"/>
+    <widget xsi:type="definition:Text" id="PdfName1" inputName="pdfName1" showDocuments="true"/>
+    <widget xsi:type="definition:Text" id="PdfName2" inputName="pdfName2" showDocuments="true"/>
     <widget xsi:type="definition:Text" id="ProcessInstanceId" inputName="processInstanceId"/>
   </page>
-  <jarDependency>connectorMergePDF-1.0-SNAPSHOT.jar</jarDependency>
-  <jarDependency>pdfbox-1.8.9.jar</jarDependency>
 </definition:ConnectorDefinition>

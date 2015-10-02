@@ -1,4 +1,4 @@
-package org.bonitasoft;
+package org.bonitasoft.custom;
 
 import java.io.InputStream;
 import java.io.OutputStream;
@@ -16,7 +16,7 @@ import org.apache.pdfbox.util.PDFMergerUtility;
  * @warning : Developed for BonitaBPM 6.3.3
  * @warning : Careful treatment may take a little time (ex : 3s for two pdf of 3mo)
  */
-public class mergePdf {
+public class MergePdf {
     public void mergePdf()  {
     }
 

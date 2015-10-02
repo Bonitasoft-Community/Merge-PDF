@@ -1,5 +1,5 @@
 import org.apache.pdfbox.exceptions.COSVisitorException;
-import org.bonitasoft.mergePdf;
+import org.bonitasoft.custom.MergePdf;
 
 import java.io.*;
 import java.text.SimpleDateFormat;
@@ -15,14 +15,14 @@ import java.util.List;
  * @warning : Developed for BonitaBPM 6.3.3
  * @warning : Careful treatment may take a little time
  */
-public class testBonitaConnectorMergePdf {
+public class TestBonitaConnectorMergePdf {
 
     public static void main(String[] args){
         testUnite();
     }
 
     public static void testUnite() {
-        mergePdf myMergePdf = new mergePdf();
+        MergePdf myMergePdf = new MergePdf();
 
         OutputStream myReturn = null;
         try {

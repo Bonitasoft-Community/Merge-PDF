@@ -4,7 +4,7 @@
   <implementationVersion>1.0</implementationVersion>
   <definitionId>BonitaSoftConnectorMergePDF</definitionId>
   <definitionVersion>1.0</definitionVersion>
-  <implementationClassname>org.bonitasoft.mergePdf.AbstractBonitaSoftConnectorMergePDF</implementationClassname>
+  <implementationClassname>org.bonitasoft.custom.BonitaSoftConnectorMergePDF</implementationClassname>
   <hasSources>true</hasSources>
   <description></description>
   <jarDependencies>

@@ -5,7 +5,7 @@
  * @warning : Developed for BonitaBPM 6.3.3
  * @warning : Careful treatment may take a little time
  */
-package org.bonitasoft.mergePdf;
+package org.bonitasoft.custom;
 
 import org.apache.pdfbox.exceptions.COSVisitorException;
 import org.bonitasoft.engine.connector.ConnectorException;
@@ -80,7 +80,7 @@ public class BonitaSoftConnectorMergePDF extends AbstractBonitaSoftConnectorMerg
             myList.add(pdf1);
             myList.add(pdf2);
     		
-            mergePdf myMergePdf = new mergePdf();
+            MergePdf myMergePdf = new MergePdf();
         	
         	OutputStream myReturn = myMergePdf.actionMerge(myList);
 			
